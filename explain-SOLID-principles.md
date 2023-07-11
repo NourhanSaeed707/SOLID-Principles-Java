@@ -36,6 +36,13 @@ Suppose there’s an interface for vehicle and a **Bike** class:
 
 - As you can see, it does not make sense for a **Bike** class to implement the **openDoors()** method as a bike does not have any doors! To fix this, ISP proposes that the interfaces be broken down into multiple, small cohesive interfaces so that no class is forced to implement any interface, and therefore methods, that it does not need.
 
+## 5. Dependency inversion principle:
+- **The Dependency Inversion Principle (DIP)** states that we should depend on abstractions (interfaces and abstract classes) instead of concrete implementations (classes). The abstractions should not depend on details; instead, the details should depend on abstractions.
+
+Consider the example below. We have a **Car** class that depends on the concrete **Engine** class; therefore, it is not obeying DIP.
+![Untiwtled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/e66eb820-3e51-4073-ab56-253e249b36a1)
+
+
 
 
 
