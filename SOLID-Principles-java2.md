@@ -23,5 +23,6 @@ Instead, **let's stick to the open-closed principle and simply extend our Guitar
 ## 3. Liskov Substitution:
 - Next on our list is Liskov substitution, which is arguably the most complex of the five principles. Simply put, **if class A is a subtype of class B, we should be able to replace B with A without disrupting the behavior of our program.**
 Let's jump straight to the code to help us understand this concept:
+![Untitledw](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/83b79645-e841-4d41-91ae-deb17a0f750f)
 
 
