@@ -47,6 +47,8 @@ However, we can solve this by introducing a layer of abstraction. Instead of **C
 ![Untitwled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/86a6a72a-6be7-49af-b651-ef5af17557e7)
 
 - Now we can connect any type of Engine that implements the Engine interface to the **Car** class:
+![Untitleqd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/42a7cac4-529c-41df-adcb-7846d805d58c)
+
 
 
 
