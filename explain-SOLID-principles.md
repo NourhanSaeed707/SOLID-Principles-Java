@@ -34,6 +34,8 @@ Consider a typical example of a **Square** derived class and **Rectangle** base 
 Suppose there’s an interface for vehicle and a **Bike** class:
 ![Untitledw](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/cf8fbd1e-c8e6-4e7d-8a93-3d04c9ce6eed)
 
+- As you can see, it does not make sense for a **Bike** class to implement the **openDoors()** method as a bike does not have any doors! To fix this, ISP proposes that the interfaces be broken down into multiple, small cohesive interfaces so that no class is forced to implement any interface, and therefore methods, that it does not need.
+
 
 
 
