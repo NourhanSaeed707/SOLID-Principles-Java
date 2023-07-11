@@ -7,3 +7,17 @@
 1. Testing – A class with one responsibility will have far fewer test cases.
 2. Lower coupling – Less functionality in a single class will have fewer dependencies.
 3. Organization – Smaller, well-organized classes are easier to search than monolithic
+
+## 2. open-closed principle:
+- **classes should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs** in an otherwise happy application.
+Of course, **the one exception to the rule is when fixing bugs in existing code.**
+Let's explore the concept with a quick code example. As part of a new project, imagine we've implemented a Guitar class.
+![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/4baef784-bbc1-4bd8-a7dc-dac7daeac3f8)
+
+- We launch the application, and everyone loves it. But after a few months, we decide the Guitar is a little boring and could use a cool flame pattern to make it look more rock and roll.
+- At this point, it might be tempting to just open up the Guitar class and add a flame pattern — but who knows what errors that might throw up in our application.
+Instead, **let's stick to the open-closed principle and simply extend our Guitar class**:
+
+![Untiteled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/387bb1c1-bdd3-4084-a67d-afc2e8c47b2e)
+
+
