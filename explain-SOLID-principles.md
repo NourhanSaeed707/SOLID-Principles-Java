@@ -7,3 +7,5 @@
 - Every class in Java should have a single job to do. To be precise, there should only be one reason to change a class. Here’s an example of a Java class that does not follow the single responsibility principle (SRP):
 ![s](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/065e8e47-4e98-404b-a992-afa8b93aebc6)
 
+- The **Vehicle** class has three separate responsibilities: reporting, calculation, and database. By applying SRP, we can separate the above class into three classes with separate responsibilities.
+
