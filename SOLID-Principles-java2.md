@@ -53,6 +53,18 @@ Let's start with an interface that outlines our roles as a bear keeper:
 ![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/4d154efe-c9fe-482b-a6a1-8a23bf6c60ef)
 - But what good is a computer without a monitor and keyboard? Let's add one of each to our constructor so that every Windows98Computer we instantiate comes prepacked with a Monitor and a StandardKeyboard:
 ![Untitlwed](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/2e66f2f7-63c9-4136-bb49-60e395d11037)
+- This code will work, and we'll be able to use the StandardKeyboard and Monitor freely within our Windows98Computer class.
+- Problem solved? Not quite. **By declaring the StandardKeyboard and Monitor with the new keyword, we've tightly coupled these three classes together.**
+- Not only does this make our Windows98Computer hard to test, but we've also lost the ability to switch out our StandardKeyboard class with a different one should the need arise. And we're stuck with our Monitor class too.
+- Let's decouple our machine from the StandardKeyboard by adding a more general Keyboard interface and using this in our class:
+![Untiwtled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/4be43645-3701-47ad-8baa-99df15d09c35)
+- Here, we're using the dependency injection pattern to facilitate adding the Keyboard dependency into the Windows98Machine class.
+- Let's also modify our StandardKeyboard class to implement the Keyboard interface so that it's suitable for injecting into the Windows98Machine class:
+![Untitledw](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/8d6c189f-dd46-4374-bcda-8feb1f0489ec)
+- Now our classes are decoupled and communicate through the Keyboard abstraction. If we want, we can easily switch out the type of keyboard in our machine with a different implementation of the interface. We can follow the same principle for the Monitor class.
+
+
+
 
 
 
