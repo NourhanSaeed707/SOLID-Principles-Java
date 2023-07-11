@@ -49,7 +49,12 @@ Let's start with an interface that outlines our roles as a bear keeper:
 
 ## 5. Dependency Inversion:
 - **The principle of dependency inversion refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.**
-- 
+- To demonstrate this, let's go old-school and bring to life a Windows 98 computer with code:
+![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/4d154efe-c9fe-482b-a6a1-8a23bf6c60ef)
+- But what good is a computer without a monitor and keyboard? Let's add one of each to our constructor so that every Windows98Computer we instantiate comes prepacked with a Monitor and a StandardKeyboard:
+![Untitlwed](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/2e66f2f7-63c9-4136-bb49-60e395d11037)
+
+
 
 
 
