@@ -42,6 +42,13 @@ Suppose there’s an interface for vehicle and a **Bike** class:
 Consider the example below. We have a **Car** class that depends on the concrete **Engine** class; therefore, it is not obeying DIP.
 ![Untiwtled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/e66eb820-3e51-4073-ab56-253e249b36a1)
 
+- The code will work, for now, but what if we wanted to add another engine type, let’s say a diesel engine? This will require refactoring the **Car** class.
+However, we can solve this by introducing a layer of abstraction. Instead of **Car** depending directly on **Engine**, let’s add an interface:
+![Untitwled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/86a6a72a-6be7-49af-b651-ef5af17557e7)
+
+- Now we can connect any type of Engine that implements the Engine interface to the **Car** class:
+
+
 
 
 
