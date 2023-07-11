@@ -14,11 +14,21 @@
 - Consider the below method of the class VehicleCalculations:
   ![o](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/c43f893f-af7c-4120-b7ac-87ee83e99570)
 
-- Adding another **Vehicle** type is as simple as making another subclass and extending from the Vehicle class.
-
 - Suppose we now want to add another subclass called **Truck**. We would have to modify the above class by adding another if statement, which goes against the Open-Closed Principle.
 A better approach would be for the subclasses **Car** and **Truck** to override the calculateValue method:
 ![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/a205b609-43d1-4145-9de9-726e394fe62e)
+
+- Adding another **Vehicle** type is as simple as making another subclass and extending from the Vehicle class.
+
+## 3. Liskov substitution principle:
+- **The Liskov Substitution Principle (LSP)** applies to inheritance hierarchies such that derived classes must be completely substitutable for their base classes.
+
+Consider a typical example of a **Square** derived class and **Rectangle** base class:
+![Untitled3](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/5dda1993-b1be-4b30-970e-9e2efd72f2d7)
+
+- The above classes do not obey LSP because you cannot replace the **Rectangle** base class with its derived class **Square**. The **Square** class has extra constraints, i.e., the height and width must be the same. Therefore, substituting **Rectangle** with **Square** class may result in unexpected behavior.
+
+
 
 
 
