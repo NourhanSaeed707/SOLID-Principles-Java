@@ -40,9 +40,16 @@ Let's start with an interface that outlines our roles as a bear keeper:
 ![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/4aeaed32-be68-40ad-bf49-62baabbf3fcd)
 - As avid zookeepers, we're more than happy to wash and feed our beloved bears. But we're all too aware of the dangers of petting them. Unfortunately, our interface is rather large, and we have no choice but to implement the code to pet the bear.
 - **Let's fix this by splitting our large interface into three separate ones:**
-- ![Untitsled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/7e0256d2-8d32-4b64-a373-c0a89ca90643)
+![Untitsled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/7e0256d2-8d32-4b64-a373-c0a89ca90643)
 - Now, thanks to interface segregation, we're free to implement only the methods that matter to us:
-- ![Untitled2](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/510c127c-34d8-4909-821c-01387adcd820)
+![Untitled2](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/510c127c-34d8-4909-821c-01387adcd820)
+- And finally, we can leave the dangerous stuff to the reckless people:
+![Untitlewd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/592e453a-6fb0-4d23-8c2f-6a75c8a18933)
+-Going further, we could even split our BookPrinter class from our example earlier to use interface segregation in the same way. By implementing a Printer interface with a single print method, we could instantiate separate ConsoleBookPrinter and OtherMediaBookPrinter classes.
+
+## 5. Dependency Inversion:
+- **The principle of dependency inversion refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.**
+- 
 
 
 
