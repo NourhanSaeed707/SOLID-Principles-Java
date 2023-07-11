@@ -28,6 +28,13 @@ Consider a typical example of a **Square** derived class and **Rectangle** base 
 
 - The above classes do not obey LSP because you cannot replace the **Rectangle** base class with its derived class **Square**. The **Square** class has extra constraints, i.e., the height and width must be the same. Therefore, substituting **Rectangle** with **Square** class may result in unexpected behavior.
 
+## 4. Interface segregation principle:
+- **The Interface Segregation Principle (ISP)** states that clients should not be forced to depend upon interface members they do not use. In other words, do not force any client to implement an interface that is irrelevant to them.
+
+Suppose there’s an interface for vehicle and a **Bike** class:
+![Untitledw](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/cf8fbd1e-c8e6-4e7d-8a93-3d04c9ce6eed)
+
+
 
 
 
