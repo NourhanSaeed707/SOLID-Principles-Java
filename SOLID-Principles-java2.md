@@ -30,6 +30,13 @@ Let's jump straight to the code to help us understand this concept:
 - As our code describes, we have an engine that we can turn on, and we can increase the power.
 - But wait — we are now living in the era of electric cars:
 ![Unwtitledw](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/fd4dc15b-7b97-4e00-9433-25d7b0d9b11d)
+- By throwing a car without an engine into the mix, we are inherently changing the behavior of our program. This is a blatant violation of Liskov substitution and is a bit harder to fix than our previous two principles.
+One possible solution would be to rework our model into interfaces that take into account the engine-less state of our Car.
+
+## 4. Interface Segregation:
+- The I  in SOLID stands for interface segregation, and it simply means that **larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.**
+For this example, we're going to try our hands as zookeepers. And more specifically, we'll be working in the bear enclosure.
+Let's start with an interface that outlines our roles as a bear keeper:
 
 
 
