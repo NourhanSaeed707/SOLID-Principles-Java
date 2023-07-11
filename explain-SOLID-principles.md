@@ -16,5 +16,7 @@
 
 - Suppose we now want to add another subclass called **Truck**. We would have to modify the above class by adding another if statement, which goes against the Open-Closed Principle.
 A better approach would be for the subclasses **Car** and **Truck** to override the calculateValue method:
+![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/a205b609-43d1-4145-9de9-726e394fe62e)
+
 
 
