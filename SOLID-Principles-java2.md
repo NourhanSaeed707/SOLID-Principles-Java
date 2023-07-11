@@ -37,6 +37,14 @@ One possible solution would be to rework our model into interfaces that take int
 - The I  in SOLID stands for interface segregation, and it simply means that **larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.**
 For this example, we're going to try our hands as zookeepers. And more specifically, we'll be working in the bear enclosure.
 Let's start with an interface that outlines our roles as a bear keeper:
+![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/4aeaed32-be68-40ad-bf49-62baabbf3fcd)
+- As avid zookeepers, we're more than happy to wash and feed our beloved bears. But we're all too aware of the dangers of petting them. Unfortunately, our interface is rather large, and we have no choice but to implement the code to pet the bear.
+- **Let's fix this by splitting our large interface into three separate ones:**
+- ![Untitsled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/7e0256d2-8d32-4b64-a373-c0a89ca90643)
+- Now, thanks to interface segregation, we're free to implement only the methods that matter to us:
+- ![Untitled2](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/510c127c-34d8-4909-821c-01387adcd820)
+
+
 
 
 
