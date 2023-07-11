@@ -45,7 +45,7 @@ Let's start with an interface that outlines our roles as a bear keeper:
 ![Untitled2](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/510c127c-34d8-4909-821c-01387adcd820)
 - And finally, we can leave the dangerous stuff to the reckless people:
 ![Untitlewd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/592e453a-6fb0-4d23-8c2f-6a75c8a18933)
--Going further, we could even split our BookPrinter class from our example earlier to use interface segregation in the same way. By implementing a Printer interface with a single print method, we could instantiate separate ConsoleBookPrinter and OtherMediaBookPrinter classes.
+- Going further, we could even split our BookPrinter class from our example earlier to use interface segregation in the same way. By implementing a Printer interface with a single print method, we could instantiate separate ConsoleBookPrinter and OtherMediaBookPrinter classes.
 
 ## 5. Dependency Inversion:
 - **The principle of dependency inversion refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.**
