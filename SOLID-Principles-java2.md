@@ -28,6 +28,9 @@ Let's jump straight to the code to help us understand this concept:
 - Let's implement our interface and provide some code for the methods:
 ![Untitlede](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/784fc83c-f35f-446a-a02a-6ccdafc788c7)
 - As our code describes, we have an engine that we can turn on, and we can increase the power.
+- But wait — we are now living in the era of electric cars:
+![Unwtitledw](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/fd4dc15b-7b97-4e00-9433-25d7b0d9b11d)
+
 
 
 
