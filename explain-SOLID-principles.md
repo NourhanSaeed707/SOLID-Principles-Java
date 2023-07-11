@@ -9,3 +9,12 @@
 
 - The **Vehicle** class has three separate responsibilities: reporting, calculation, and database. By applying SRP, we can separate the above class into three classes with separate responsibilities.
 
+## 2. Open-closed principle:
+- Software entities (e.g., classes, modules, functions) should be open for an extension, but closed for modification.
+- Consider the below method of the class VehicleCalculations:
+  ![o](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/c43f893f-af7c-4120-b7ac-87ee83e99570)
+
+- Suppose we now want to add another subclass called **Truck**. We would have to modify the above class by adding another if statement, which goes against the Open-Closed Principle.
+A better approach would be for the subclasses **Car** and **Truck** to override the calculateValue method:
+
+
