@@ -32,6 +32,9 @@
 - If we want to add another subclass named arts, simply, we add one more if statement that violates the open-closed principle. The only way to add the subclass and achieve the goal of principle is by overriding the **Streamname()** method, as we have shown below.
 ![Untitlaed](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/d9a96856-71c7-43d2-94f7-340e67753ed0)
 
+## Why is this principle required?
+- Because classes may come from third-party libraries, OCP is essential. We should be able to extend those classes without having to worry about whether or not the base classes will be able to support our expansions. However, inheritance may result in subclasses that are dependent on the implementation of the base class. The use of interfaces is recommended to avoid this. Loose coupling occurs as a result of the added abstraction.
+
 
 
 
