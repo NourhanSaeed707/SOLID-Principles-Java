@@ -49,6 +49,10 @@
 - Let’s understand it with the help of an example:
 - Suppose there’s an interface for a vehicle and a Bike class:
 ![Untiatled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/42b03c1d-ae66-49bb-81e0-50134daea506)
+- As you can see, a Bike class should not implement the openDoors() method because a bike does not have any doors! To address this, ISP offers to break down the interfaces into several, small coherent interfaces so that no class is required to implement any interfaces (and thus methods) that it does not require.
+- After implying the interface segregation principle
+![Untitleds](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/98ba0471-a87a-45ea-bdde-1bfb34d6130a)
+
 
 
 
