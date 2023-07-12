@@ -26,4 +26,9 @@
 - **Overwriting the required behaviour from the class.**
 - **Extending certain behaviour of the class.**
 
+-Let’s understand it by using an example:
+-Suppose, **StudentInfo** is a class and it has the method **Streamname()** that returns the name of the stream.
+![Untitwled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/3cb32053-33b9-452c-9b4e-764f84f640db)
+
+
 
