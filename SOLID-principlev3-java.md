@@ -19,4 +19,11 @@
 ## Why is this Principle Required?
 - Testing is made easier when the Single Responsibility Principle is implemented. The class will have fewer test cases with a single responsibility. Because there is less functionality, there are fewer dependencies on other classes. Because smaller, well-purposed classes are easier to search, it leads to better code organization.
 
+## 2. Open-Closed Principle:
+- flawlessly without the expectation that it will be changed in the future. As a result, **the class should stay closed to alteration, but it should be possible to extend it.** Extending the class can be done in a variety of ways, including
+
+- **Inheriting from class.**
+- **Overwriting the required behaviour from the class.**
+- **Extending certain behaviour of the class.**
+
 
