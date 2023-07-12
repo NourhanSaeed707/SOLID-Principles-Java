@@ -62,6 +62,10 @@
 ![Untitle2d](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/a42113ef-0a0e-4573-ba35-df07ec143a32)
 - But the problem with this code is that now all three classes are tightly coupled to each other which makes it hard to test the WindowMachine class let’s make this code loosely coupled with the help of the Dependency Inversion principle.
 - To make the code loosely coupled, we decouple the WindowsMachine from the keyboard by using the Keyboard interface and this keyword.
+![Untitqwled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/7ab8e9bc-094a-40d0-86b1-14f26b5eae31)
+
+## Why is this principle is required?
+- It allows a programmer to remove hardcoded dependencies so that the application becomes loosely coupled and extendable.
 
 
 
