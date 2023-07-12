@@ -16,4 +16,7 @@
 - The point of implementing the Single responsibility principle is not that a class can’t have more than one method but it’s -recommended to use a single method for each class so that multiple capabilities in a single class don’t mash up the code, and any changes made to the code may influence the entire class. Using a single responsibility principle makes code easy to maintain.
 ![Untitlsed](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/566c4f76-4b30-4ab1-8618-3f4bbec29614)
 
+## Why is this Principle Required?
+- Testing is made easier when the Single Responsibility Principle is implemented. The class will have fewer test cases with a single responsibility. Because there is less functionality, there are fewer dependencies on other classes. Because smaller, well-purposed classes are easier to search, it leads to better code organization.
+
 
