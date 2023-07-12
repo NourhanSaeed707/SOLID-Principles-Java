@@ -40,6 +40,16 @@
 - Barbara Liskov proposed the Liskov Substitution Principle (LSP). It pertains to inheritance in the sense that derived classes must be 100% interchangeable with their base classes. To put it another way, if class A is a subtype of class B, we should be able to substitute B with A without affecting the program’s behaviour.
 - It goes beyond the open-close principle to look at how a superclass and its subclasses behave. Unless there is a compelling reason to do otherwise, we should build the classes to preserve the property. Let’s understand it with an example:
 ![Untitlesd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/b59797df-ba13-4b3e-834f-a24f0fa382ea)
+- The above classes do not obey LSP because you cannot replace the Rectangle base class with its derived class Square. The Square class has extra constraints, i.e., the height and width must be the same. Therefore, substituting Rectangle with Square class may result in unexpected behaviour.
+## Why is this principle is required?
+- This prevents inheritance from being abused. It assists us in adhering to the “is-a” relationship. Subclasses must also adhere to a contract established by the base class. In this way, it’s similar to Bertrand Meyer’s Design by Contract. It’s easy to think of a circle as a form of an ellipse, yet circles lack two foci or major/minor axes.
+
+## 4. Interface segregation principle:
+- According to the interface segregation concept, a client should never be required to implement an interface that it does not use, or to rely on any method that it does not use. So, fundamentally, the interface segregation principles are that you favour small, client-specific interfaces over monolithic, larger interfaces. In other words, forcing the client to rely on something they don’t require is not a good idea. In short, No client should be forced to depend on methods that it does not use.
+- Let’s understand it with the help of an example:
+- Suppose there’s an interface for a vehicle and a Bike class:
+![Untiatled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/42b03c1d-ae66-49bb-81e0-50134daea506)
+
 
 
 
