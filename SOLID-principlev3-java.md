@@ -30,6 +30,7 @@
 - Suppose, **StudentInfo** is a class and it has the method **Streamname()** that returns the name of the stream.
 ![Untitwled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/3cb32053-33b9-452c-9b4e-764f84f640db)
 - If we want to add another subclass named arts, simply, we add one more if statement that violates the open-closed principle. The only way to add the subclass and achieve the goal of principle is by overriding the **Streamname()** method, as we have shown below.
+
 ![Untitlaed](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/d9a96856-71c7-43d2-94f7-340e67753ed0)
 
 ## Why is this principle required?
