@@ -12,15 +12,7 @@
 - According to the single responsibility principle, each Java class must perform only one function. Multiple capabilities in a single class mashup the code, and any changes made to the code may influence the entire class. It specifies the code and makes it simple to maintain.
 - Let’s understand this by using an example:
 - Suppose we have a class FinalExam that has 3 methods that perform 3 operations **AddQuestion()**, **ExpectedAnswer()**, **Marksdistribution()**. Now all these 3 methods perform different actions. By using the single responsibility principle, we can separate these functionalities into three separate classes to fulfil the goal of the principle.
-  
-public class FinalExam{
-public void AddQuestion(){
-//functionality of the method
-}
-public void ExpectedAnswer(){
-//functionality of the method 
-}
-public void Marksdistribution(){
-//functionality of the method 
-} 
-}
+  ![Untitled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/80ca1e49-45f2-4235-bea6-01f954a0ffe3)
+- The point of implementing the Single responsibility principle is not that a class can’t have more than one method but it’s -recommended to use a single method for each class so that multiple capabilities in a single class don’t mash up the code, and any changes made to the code may influence the entire class. Using a single responsibility principle makes code easy to maintain.
+
+
