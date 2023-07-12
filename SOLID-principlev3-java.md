@@ -1,4 +1,4 @@
-# Benefits of using SOLID principles:
+![image](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/ae3d3664-ab7b-4d8a-bace-d79115056950)# Benefits of using SOLID principles:
 - When you use all the principles of S.O.L.I.D in a combined manner, it becomes easier for you to develop software that can be managed easily.
 - **Clean:** SOLID principles make code clean and standard code.
 - **Maintainable:** with the help of SOLID principles our code becomes more manageable and easy to maintain.
@@ -54,6 +54,14 @@
 ![Untitwled](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/95e25998-cb3f-4a13-b00e-5d0441395d4a)
 ## Why is this principle required?
 - The Interface Segregation Principle makes our code more readable and maintainable. We’ve pared down our class implementation to simplify the operations that are required, with no extra or extraneous code. As we only use that method that is required and can leave other methods.
+
+## 5. Dependency Inversion Principle:
+- The Dependency Inversion Principle (DIP) asserts that rather than real implementations, we should rely on abstractions (interfaces and abstract classes) (classes). Details should not be dependent on abstractions; rather, abstractions should be dependent on details.
+- Let’s understand it by using an example:
+- We have a class WindowMachine that contains keyboard and monitor classes inside it and we create instances of monitor and keyboard class inside WindowMachine constructor to use them.
+![Untitle2d](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/a42113ef-0a0e-4573-ba35-df07ec143a32)
+- But the problem with this code is that now all three classes are tightly coupled to each other which makes it hard to test the WindowMachine class let’s make this code loosely coupled with the help of the Dependency Inversion principle.
+- To make the code loosely coupled, we decouple the WindowsMachine from the keyboard by using the Keyboard interface and this keyword.
 
 
 
