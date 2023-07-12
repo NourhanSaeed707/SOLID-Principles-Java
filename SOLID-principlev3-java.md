@@ -1,1 +1,1 @@
-## Benefits of using SOLID principles:
+# Benefits of using SOLID principles:
