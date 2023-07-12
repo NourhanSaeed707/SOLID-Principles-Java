@@ -39,6 +39,8 @@
 ## 3. Liskov substitution principle:
 - Barbara Liskov proposed the Liskov Substitution Principle (LSP). It pertains to inheritance in the sense that derived classes must be 100% interchangeable with their base classes. To put it another way, if class A is a subtype of class B, we should be able to substitute B with A without affecting the program’s behaviour.
 - It goes beyond the open-close principle to look at how a superclass and its subclasses behave. Unless there is a compelling reason to do otherwise, we should build the classes to preserve the property. Let’s understand it with an example:
+![Untitlesd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/b59797df-ba13-4b3e-834f-a24f0fa382ea)
+
 
 
 
