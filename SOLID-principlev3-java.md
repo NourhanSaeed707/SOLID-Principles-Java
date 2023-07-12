@@ -1,4 +1,4 @@
-![image](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/ae3d3664-ab7b-4d8a-bace-d79115056950)# Benefits of using SOLID principles:
+# Benefits of using SOLID principles:
 - When you use all the principles of S.O.L.I.D in a combined manner, it becomes easier for you to develop software that can be managed easily.
 - **Clean:** SOLID principles make code clean and standard code.
 - **Maintainable:** with the help of SOLID principles our code becomes more manageable and easy to maintain.
