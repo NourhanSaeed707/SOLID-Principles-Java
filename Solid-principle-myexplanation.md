@@ -5,6 +5,8 @@
 - Example
 ![wd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/0084190c-d8b8-47de-b1c8-d45a28cf02be)
 - that violates **Single Responsibility Principle** to fix that
+![wd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/f67ddef1-c6f3-4d74-a86a-e12eb94458b2)
+
 
 
 
