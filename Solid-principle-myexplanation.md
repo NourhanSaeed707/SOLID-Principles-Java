@@ -1,4 +1,3 @@
-![wd](https://github.com/NourhanSaeed707/SOLID-Principles-Java/assets/64387352/5ce5a8cd-6497-4a16-abb5-d3ee2e5d40e3)# SOLID Principles:
 ## 1. Single Responsibility Principle:
 - There should never be more than one reasone for a class to change. A class should have only one reasone to change(have only one job to do)
 - Imagine we have a class **Payment** to pay bills and report bills and we write code for sendEmail in it, that violates **Single Responsibility Principle**
